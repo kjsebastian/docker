@@ -9,7 +9,7 @@ node {
 
     stage('Build image') {
   
-       app = docker.build("sajalgolas/nodedemo2")
+       app = docker.build("kjsebastian1/multibranch-pipeline")
     }
 
     stage('Test image') {
